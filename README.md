@@ -67,11 +67,11 @@ To reproduce results for a given figure:
 
 ---
 
-Copyright 2025 Marco K Wittmann
-
----
-
 ## Notes
 - Scripts were developed and tested on macOS and Linux systems.  
 - Statistical analyses in *6_Stats* were performed using **JASP**.  
-- Data filenames include timestamps to indicate date of generation.  
+- Data filenames include timestamps to indicate date of generation.
+
+---
+
+Copyright 2025 Marco K Wittmann
