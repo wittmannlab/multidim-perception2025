@@ -1,4 +1,4 @@
-function [onsets,names,durations,pmod,orth,CONTRAST]= glm_D035(B)
+function [onsets,names,durations,pmod,orth,CONTRAST]= glm_D001(B)
 % gets onsets for a localiser design
 % INPUT: SUBDATA
 %
