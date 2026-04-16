@@ -107,9 +107,8 @@ bar(unique_vals, counts, 'FaceColor', 'b', 'EdgeColor', 'k');
 % Formatting
 xlabel('Unique Values');
 ylabel('Frequency');
-title('SuppFigure.8-A')
 xlim([-1,5])
-saveas(gcf, ['..\5_Figs\SuppFigure8A.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure13A.fig']);
 
 % Plot histogram ========================================
 % Find unique values and their frequencies
@@ -125,8 +124,7 @@ xlabel('Unique Values');
 
 xlim([-1,5])
 ylabel('Frequency');
-title('SuppFigure.8-B')
-saveas(gcf, ['..\5_Figs\SuppFigure8B.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure13B.fig']);
 
 
 

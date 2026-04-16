@@ -51,5 +51,5 @@ boxchart(tt.Beta, tt.Value, 'JitterOutliers','on','MarkerStyle','+');
 yline(0,'--'); ylim([-0.2,0.4]);
 xlabel('Model'); title('V4');
 
-% sgtitle('SuppFigure.6-E'); title('SuppFigure.6-E', 'Interpreter', 'none');
+
 

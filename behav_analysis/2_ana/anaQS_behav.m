@@ -8,14 +8,16 @@ fs = filesep;
 addpath(['..' fs 'utils'])
 load(['..' fs '1_data' fs 'Data_26-Sep-2024.mat']); % load data
 outpath = ['..' fs '3_out' fs];
+outpathfig = ['' fs '5_Figs' fs];
 
 %---------------------------------------------------------------------------    
 % 1. Analysis of calibration experiment:
 behav_cal(s.calibration,outpath)
 
 %---------------------------------------------------------------------------    
-% 2. Analysis of catch trials during main experiment:
-behav_rs(s.sub, outpath);
+% 2. Analysis of catch trials during main experiment and schedule:
+behav_sch(s.sub, outpathfig);
+behav_rs_v2(s.sub, outpath);
 
 %---------------------------------------------------------------------------    
 % 3. Analysis of similarity ratings:
@@ -26,5 +28,6 @@ for is = 1:numel(s.Rat)
 end
 % now run analyses
 behav_rat(rdata,outpath)
+behav_rat_supp(rdata,s,outpath,outpathfig)
 
 

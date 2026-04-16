@@ -45,16 +45,11 @@ heatmap(bothlab,bothlab,T1_mat,'Colorlimits',[-1.0 1.0]); title('Overall stim di
 colormap('summer');  % Set the colormap (you can change this to 'hot', 'jet', etc.)
 colorbar;  % Show the colorbar on the right
 
-ylabel('Stimulus 1');
-xlabel('Stimulus 2');
+h_ylabel = ylabel('Stimulus 1');
+h_xlabel = xlabel('Stimulus 2');
 
-% Move the axis titles
-h_xlabel.Position = [8, -2, 0]; % Move X-axis title: [x, y, z]
-h_ylabel.Position = [-2, 8, 0]; % Move Y-axis title: [x, y, z]
-
-title('SuppFigure.4-B')
 set(gca, 'FontSize', fontsize);
-saveas(gcf, ['..\5_Figs\SuppFigure4B.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure5B.fig']);
 
 
 
@@ -141,8 +136,7 @@ xticklabels({'Bias','Colour','Motion'});  % Set x-tick labels
 ylabel('Effect Size');  % Y-axis label
 % xlabel('RM Factor 1');  % X-axis label
 set(gca, 'FontSize', 12);  % Set font size for axes
-title('SuppFigure.4-C')
-saveas(gcf, ['..\5_Figs\SuppFigure4C.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure5C.fig']);
 
 
 
