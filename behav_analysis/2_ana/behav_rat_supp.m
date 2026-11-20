@@ -199,5 +199,5 @@ text(0.95,0.05, sprintf('r = %.3g\np = %.3g', r, p), ...
 
 hold off
 
-saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.11.fig']); 
+saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.6.fig']); 
 end

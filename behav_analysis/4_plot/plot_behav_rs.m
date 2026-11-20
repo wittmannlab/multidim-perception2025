@@ -51,10 +51,10 @@ ylim([0, 100]);  % Set y-axis limits
 xticks(1:3);  % Set x-ticks
 xticklabels({'Block 1', 'Block 2', 'Block 3'});  % Set x-tick labels
 ylabel('% correct');  % Set y-label
-title('SuppFigure.3-B')
+title('Figure.3-B')
 hold off;
 
-saveas(gcf, ['..\5_Figs\SuppFigure3B.fig']);
+saveas(gcf, ['..\5_Figs\Figure3B.fig']);
 
 
 % #########################################################################
@@ -82,9 +82,9 @@ xticklabels({'Bias','Colour','Motion'});  % Set x-tick labels
 ylabel('Effect Size');  % Y-axis label
 xlabel('RM Factor 1');  % X-axis label
 set(gca, 'FontSize', 12);  % Set font size for axes
-title('SuppFigure.3-C')
+title('Figure.3-C')
 
-saveas(gcf, ['..\5_Figs\SuppFigure3C.fig']);
+saveas(gcf, ['..\5_Figs\Figure3C.fig']);
 
 
 
@@ -108,7 +108,7 @@ bar(unique_vals, counts, 'FaceColor', 'b', 'EdgeColor', 'k');
 xlabel('Unique Values');
 ylabel('Frequency');
 xlim([-1,5])
-saveas(gcf, ['..\5_Figs\SuppFigure13A.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure8A.fig']);
 
 % Plot histogram ========================================
 % Find unique values and their frequencies
@@ -124,7 +124,7 @@ xlabel('Unique Values');
 
 xlim([-1,5])
 ylabel('Frequency');
-saveas(gcf, ['..\5_Figs\SuppFigure13B.fig']);
+saveas(gcf, ['..\5_Figs\SuppFigure8B.fig']);
 
 
 

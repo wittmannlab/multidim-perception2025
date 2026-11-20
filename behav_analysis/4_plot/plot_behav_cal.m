@@ -84,8 +84,8 @@ ylabel('P(Choose red)')
 xlabel('Colour Coherance')
 set(gca, 'FontSize', font_size);
 xtickangle(x_tick_angle);
-title('SuppFigure.1-B')
-saveas(gcf, ['..\5_Figs\SuppFigure1B.fig']);
+title('Figure.1-B')
+saveas(gcf, ['..\5_Figs\Figure1B.fig']);
 
 
 % --- Motion figure -------------------------------------------------------
@@ -107,7 +107,7 @@ ylabel('P(Choose right)')
 xlabel('Motion Coherance')
 set(gca, 'FontSize', font_size);
 xtickangle(x_tick_angle);
-title('SuppFigure.1-C')
+title('Figure.1-C')
 
-saveas(gcf, ['..\5_Figs\SuppFigure1C.fig']);
+saveas(gcf, ['..\5_Figs\Figure1C.fig']);
 

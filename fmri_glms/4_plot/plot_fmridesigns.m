@@ -51,4 +51,4 @@ for ic = 1:2
 
 end
 
-saveas(gcf, [ '..' fs '5_Figs' fs,'SuppFigure.6','.fig']);
+saveas(gcf, [ '..' fs '5_Figs' fs,'Figure.5','.fig']);

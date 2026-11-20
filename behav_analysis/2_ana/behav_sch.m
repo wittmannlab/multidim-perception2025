@@ -49,7 +49,7 @@ end
 
 
 
-saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.4.fig']); 
+saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.2.fig']); 
 
 
 

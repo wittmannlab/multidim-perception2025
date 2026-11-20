@@ -49,7 +49,7 @@ h_ylabel = ylabel('Stimulus 1');
 h_xlabel = xlabel('Stimulus 2');
 
 set(gca, 'FontSize', fontsize);
-saveas(gcf, ['..\5_Figs\SuppFigure5B.fig']);
+saveas(gcf, ['..\5_Figs\Figure4B.fig']);
 
 
 
@@ -105,10 +105,10 @@ ylim([yLimits(1) - padding, yLimits(2) + padding]);
 
 xlabel('MDS-Motion Dimension')
 ylabel('MDS-Colour Dimension')
-title('Figure.1-D')
+title('Figure.4-D')
 
 % saveas(gcf, ['..\5_Figs\mds_rat.fig']);
-exportgraphics(gcf,'..\5_Figs\FIGURE1D.pdf','ContentType','vector')
+exportgraphics(gcf,'..\5_Figs\FIGURE4D.pdf','ContentType','vector')
 
 
 %% ##########################################################################
@@ -136,7 +136,7 @@ xticklabels({'Bias','Colour','Motion'});  % Set x-tick labels
 ylabel('Effect Size');  % Y-axis label
 % xlabel('RM Factor 1');  % X-axis label
 set(gca, 'FontSize', 12);  % Set font size for axes
-saveas(gcf, ['..\5_Figs\SuppFigure5C.fig']);
+saveas(gcf, ['..\5_Figs\Figure4C.fig']);
 
 
 

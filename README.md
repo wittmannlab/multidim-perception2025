@@ -3,6 +3,7 @@
 **Authors:** Marco K. Wittmann\*, Cormac Dickson\*, Nicholas Shea, Hakwan Lau, Stephen M. Fleming  
 \*equal contribution  
 **Date:** October 2025  
+**Last update:** November 2026
 
 ---
 
@@ -71,6 +72,13 @@ To reproduce results for a given figure:
 - Scripts were developed and tested on macOS and Linux systems.  
 - Statistical analyses in *6_Stats* were performed using **JASP**.  
 - Data filenames include timestamps to indicate date of generation.
+
+---
+
+## Third-party code
+`fmri_glms/utils/cbrewer/` contains colour-map utilities by other authors, included unmodified for plotting:
+- **cbrewer** (`cbrewer.m`, `interpolate_cbrewer.m`, `plot_brewer_cmap.m`, `change_jet.m`, `colorbrewer.mat`) by Charles Robert, distributed via MATLAB File Exchange. It includes colour specifications and designs developed by Cynthia Brewer ([colorbrewer2.org](https://colorbrewer2.org/)).
+- **colorcet** (`colorcet.m`) by Peter Kovesi ([peterkovesi.com/projects/colourmaps](https://peterkovesi.com/projects/colourmaps/)); its copyright and licence notice is included in the file.
 
 ---
 

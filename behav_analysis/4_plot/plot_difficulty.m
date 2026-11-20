@@ -100,4 +100,4 @@ set(gca, ...
 hold off
 
 
-saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.10.fig']); 
+saveas(gcf, ['..' fs '5_Figs' fs 'SuppFigure.5.fig']); 
